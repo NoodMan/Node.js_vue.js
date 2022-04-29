@@ -24,10 +24,13 @@
         <router-link :to="{ name: 'modify', params: { id: article.id } }">
          
             <button class="btn btn-secondary">
-              <span class="material-icons"> Modifier </span>
+              <span > Modify </span>
             </button>
           </router-link>
-
+          
+  <button class="btn btn-danger">
+              <span > Delete</span>
+            </button>
       
         <br />
       </tr>
